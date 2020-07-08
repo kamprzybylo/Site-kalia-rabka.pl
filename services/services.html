@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalia Rabka-Zdrój Zakład Pogrzebowy</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+
+    <script defer src="../js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="menu_big">
+            <ul>
+                <li><a href="../index.html">Główna</a></li>
+                <li><a href="../services/services.html">Usługi</a></li>
+                <li><a href="../guide/guide.html">Poradnik</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="../contact/contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Główna</a>
+            <a href="../services/services.html">Usługi</a>
+            <a href="../guide/guide.html">Poradnik</a>
+            <a href="#gallery">Galeria</a>
+            <a href="../contact/contact.html">Kontakt</a>
+        </div>
+        <span class="menburger" onclick="openNav()">&#9776;</span>
+        <div class="phone"><a href="tel:+48601778621">tel. 601-778-621</a></div>
+
+
+    </div>
+    <header>
+        <div class="darkbgc">
+            <img src="../img/logo_kalia.png" alt="logo">
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <div id="services" class="services">
+            <h1> Usługi</h1>
+            <ul class="first_list">
+                <li>
+                    <p> Sprzedaż: trumien, wieńcy, nekrologów, tabliczek, krzyży.</p>
+                </li>
+                <li>
+                    <p><i class="fab fa-gripfire"></i></p>
+                </li>
+                <li>
+                    <p> Przewóz osoby zmarłej, transport międzynarodowy, kondukty pogrzebowe.</p>
+                </li>
+                <li>
+                    <p><i class="fab fa-gripfire"></i></p>
+                </li>
+                <li>
+                    <p>Organizacja i obsługa ceremonii pogrzebowych.</p>
+                </li>
+                <li>
+                    <p><i class="fab fa-gripfire"></i></p>
+                </li>
+                <li>
+                    <p> Własna chłodnia.</p>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+
+        <div id="contact" class="contact">
+            <div>
+                <h2>kontakt</h2>
+                <a href="tel:+48182677621">Tel. 18-26-77-621</a>
+                <a href="tel:+48601778621">Kom. 601-778-621</a>
+            </div>
+            <div class="line"></div>
+            <div>
+                <h2>lokalizacja</h2>
+                <p>Rabka Zdrój ul. Jana Pawła II 19 A</p>
+            </div>
+
+        </div>
+
+    </main>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
